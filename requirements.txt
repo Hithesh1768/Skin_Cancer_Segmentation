@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+scikit-image
+opencv-python
+tensorflow==2.12.0
+keras==2.12.0
+tqdm
+albumentations
