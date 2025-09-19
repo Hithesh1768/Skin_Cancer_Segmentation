@@ -25,17 +25,17 @@ Skin_Cancer_Segmentation/
 
 We tested multiple segmentation models:
 
-| Model              | Dice Coefficient | Notes                                     |
-|--------------------|------------------|---------------------------------------- --|
-| **UNet++**         | **0.8811**       | Best performance overall                  |
-| **Teacher Model**  | 0.8714           | Slightly lower than student               |
-| **Student Model**  | 0.8816           | Comparable to UNet++, outperformed teacher|
-| **UNet (baseline)**| 0.8235           | Lowest among the tested models            |
+| Model              | Dice Coefficient | Notes                                 |
+|--------------------|------------------|---------------------------------------|
+| **UNet++**         | **0.8811**       | Best performance overall              |
+| **Teacher Model**  | 0.8714           | Slightly lower than student           |
+| **Student Model**  | 0.8816           | Comparable to UNet++, outperformed teacher |
+| **UNet (baseline)**| 0.8235           | Lowest among the tested models        |
 
 ### Key Insights
 - **UNet++ achieved the best Dice/IoU scores.**
-- In the **teacher-student framework**, the **student model outperformed the teacher**.
 - Baseline **UNet** was significantly weaker.
+- With some slight tweakings **Teacher-Student Model** will perform better.
 
 ---
 
